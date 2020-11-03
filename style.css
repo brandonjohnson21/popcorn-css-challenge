@@ -3,12 +3,7 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-nav {
-    background-color: #FFDBAA;
-    color: #553100;
-    padding: 20px;
-    width: 100%;
-}
+
 button {
     background-color: #805215;
     border-width: 1px;
@@ -16,23 +11,17 @@ button {
     font-weight: bold;
     padding: 10px
 }
-.smallcard {
-    background-color: white;
-    max-width: 250px;
-    min-width: 200px;
-    height: 140px;
-    margin: 30px;
-    padding: 10px;
-    box-shadow: 0  0 5px;
+h1 {
+    display: inline;
 }
-.card-button {
-    width: 80%
-}
-.card-body {
-    margin: 10px;
-    font-size: small;
-    text-align: left;
-    height: 60px
+nav {
+    width: 50vw;
+    max-width:400px;
+    float:right;
+    display:flex;
+    margin-right: 50px;
+    justify-content: space-around;
+
 }
 body {
     background-color: #D4A76A;
@@ -41,7 +30,9 @@ body {
 }
 section {
     text-align: center;
-    padding: 10px;
+    padding: 10px 30px;
+    display:flex;
+    flex-direction: row;
 }
 article {
     display: inline-block;
@@ -54,3 +45,40 @@ footer {
 header {
     font-weight: bold;
 }
+.card { 
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0  0 5px;
+    margin: 10px auto ;
+
+    display:flex;
+    flex-direction: column;
+}
+.smallcard {
+    max-width: 210px;
+    min-width: 200px;
+    min-height: 140px;
+}
+.largecard {
+    min-width: 600px;
+    height: 140px;
+}
+.card-button {
+    width:100%
+}
+.card-body {
+    margin: 10px;
+    font-size: small;
+    text-align: left;
+    height: 100%;
+    vertical-align: top;
+}
+
+.page-header {
+    background-color: #FFDBAA;
+    color: #553100;
+    padding: 20px;
+    width: 100vw;
+    margin-bottom: 10px;
+}
+
