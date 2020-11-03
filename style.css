@@ -16,26 +16,41 @@ button {
     font-weight: bold;
     padding: 10px
 }
-section {
+.smallcard {
     background-color: white;
+    max-width: 250px;
+    min-width: 200px;
+    height: 140px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0  0 5px;
+}
+.card-button {
+    width: 80%
+}
+.card-body {
+    margin: 10px;
+    font-size: small;
+    text-align: left;
+    height: 60px
 }
 body {
     background-color: #D4A76A;
     margin-top: 0px;
     margin-left: 0px;
 }
-table {
-    padding: 20px
-}
-td {
-    max-width: 200px;
-    padding: 20px
-}
 section {
     text-align: center;
-    padding: 10px
+    padding: 10px;
+}
+article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    text-align: center;
 }
 header {
     font-weight: bold;
-    margin: 10px;
 }
