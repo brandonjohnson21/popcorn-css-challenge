@@ -3,3 +3,39 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+nav {
+    background-color: #FFDBAA;
+    color: #553100;
+    padding: 20px;
+    width: 100%;
+}
+button {
+    background-color: #805215;
+    border-width: 1px;
+    color:white;
+    font-weight: bold;
+    padding: 10px
+}
+section {
+    background-color: white;
+}
+body {
+    background-color: #D4A76A;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+table {
+    padding: 20px
+}
+td {
+    max-width: 200px;
+    padding: 20px
+}
+section {
+    text-align: center;
+    padding: 10px
+}
+header {
+    font-weight: bold;
+    margin: 10px;
+}
